@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis cursos</title>
+
+
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+    <header>
+        <h1>Mis cursos</h1>
+    </header>
+
+    <main id="main">
+
+        <section class="cards-container">
+
+            <div class="card card1" onclick="modalActivated(0)">
+                <section class="img-container">
+                    <img src="./imgs/data.gif" alt="" >
+                </section>
+                <section class="text-container">
+                    <div class="texto">
+                        <h3>Ciencia de datos</h3>
+                        <p>Es la parte de la informática moderna encargada de trabajar con los datos. Mediante el correcto uso de estos es 
+                            posible tomar decisiones basadas en hechos gracias a la implementación de modelos de predicción.</p>
+                    </div>
+                </section>
+            </div>
+            
+            <div class="card card2" onclick="modalActivated(1)">
+                <section class="img-container">
+                    <img src="./imgs/web.gif" alt="">
+                </section>
+                <section class="text-container">
+                    <div class="texto">
+                        <h3>Desarrollo Web</h3>
+                        <p>Es una disciplina informática que se encarga de desarrollar mediante el uso de códigos y lenguajes específicos la 
+                            implementación de todo lo relacionado con lo digital y web. Con esta disciplina se crean las páginas web. </p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="card card3" onclick="modalActivated(2)">
+                <section class="img-container">
+                    <img src="./imgs/cripto.gif" alt="" >
+                </section>
+                <section class="text-container">
+                    <div class="texto">
+                        <h3>Criptomonedas</h3>
+                        <p>¡Es el nuevo mundo de la economía digital! Como un profesional tecnología debo estar actualizado de 
+                         lo nuevo a nivel digital. Las criptomonedas son una nueva manera de llevar a cabo tu economía pero de
+                             manera digital y descentralizada.</p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="card card4" onclick="modalActivated(3)">
+                <section class="img-container">
+                    <img src="./imgs/ingles.gif" alt="" >
+                </section>
+                <section class="text-container">
+                    <div class="texto">
+                        <h3>Inglés</h3>
+                        <p>El dominio del Inglés es esencial en la industria. La documentación del software, la terminología propia de los lenguajes de programación e incluso la comunicación en un equipo conformado por personas de distintos países.</p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="card card5" onclick="modalActivated(4)">
+                <section class="img-container">
+                    <img src="./imgs/desarrollo.gif" alt="">
+                </section>
+                <section class="text-container">
+                    <div class="texto">
+                        <h3>Desarrollo de Software</h3>
+                        <p>Es la parte de la informática dedicada a la creación de sistemas que tienen por finalidad resolver algún problema particular
+                            mediante el uso lenguajes de programación específicos para cada tarea.
+                        </p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="card card6" onclick="modalActivated(5)">
+                <section class="img-container">
+                    <img src="./imgs/soft.gif" alt="">
+                </section>
+                <section class="text-container">
+                    <div class="texto">
+                        <h3>Habilidades blandas</h3>
+                        <p>Las habilidades blandas son las competencias, actitudes y comportamientos que una persona puede
+                            desarrollar para relacionarse de manera efectiva con su entorno y poder resolver problemas, cumplir metas personales y en equipo.</p>
+                    </div>
+                </section>
+            </div>
+
+            <!-- <div class="card card7">
+                <section class="img-container">
+                    <img src="./imgs/math.gif" alt="">
+                </section>
+                <section class="text-container">
+                    <div class="texto">
+                        <h3>Matemáticas</h3>
+                        <p>Lorem ipsum dolor sit Lorem ipsum dolor sit Lorem ipsum dolor sitLorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, minus.</p>
+                    </div>
+                </section>
+            </div> -->
+
+        </section>
+        
+    </main>
+    
+   
+    <div id="overlay">
+        <div class="modal" id='modal'>
+            <div>
+                <h2 class="titulo-modal"><span onclick="modalDeactivated()"></span></h2>
+            </div>
+            <div>
+                <p class="parrafo-modal"></p>
+            </div>
+        </div>
+    </div>
+
+    
+
+ 
+    <script src="script.js"></script>
+
+</body>
+</html>
