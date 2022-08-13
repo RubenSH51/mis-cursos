@@ -22,7 +22,7 @@ h1
     text-align: center;
     font-size: 3rem;
     margin-top: 10px;
-    color:red;
+
 }
 
 main .cards-container
@@ -148,6 +148,88 @@ main .cards-container .card6 .img-container
 }
 
 
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> MODAL*/
+
+
+
+
+.modal
+{
+    position: fixed;
+    
+    background-color: rgb(209, 207, 207);
+    padding:40px;
+    outline: 2px solid rgb(6, 88, 61);
+    outline-offset: -0.5rem;
+    border: 2px solid green;
+    border-radius: 20px;
+    
+    width: 70%;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-200%);
+    
+}
+
+.modal h2
+{
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.modal p
+{
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+.modal span
+{
+    position:absolute;
+    right:17px;
+    top: 12px;
+    cursor: pointer;
+    background: url('./imgs/close.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+
+}
+
+
+.activado
+{
+    transform:translate(-50%, -50%);
+    transition: all 0.8s;
+}
+
+#overlay {
+    position:fixed;
+    left:0;
+    top:0;
+    width:100vw;
+    height:100vh;
+    display:none;
+    background-color:#000;
+    opacity:0.9;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
 /* >>>>>>>>>>>>>>>>>>>>> MEDIAS*/
 
 @media (min-width: 600px)
@@ -235,75 +317,18 @@ main .cards-container .card:hover
 }
 
 
-
-
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> MODAL*/
-
-
-
-
-.modal
+@media (max-width: 1000px)
 {
-    position: fixed;
-    
-    background-color: rgb(209, 207, 207);
-    padding:40px;
-    outline: 2px solid rgb(6, 88, 61);
-    outline-offset: -0.5rem;
-    border: 2px solid green;
-    border-radius: 20px;
-    
-    width: 50%;
-    left:50%;
-    top:50%;
-    transform:translate(-50%,-200%);
-    
-}
+    #modal
+    {
+        width: 80%;
+    }
 
-.modal h2
-{
-    font-size: 2.5rem;
-    margin-bottom: 25px;
-    text-align: center;
-}
-
-.modal p
-{
-    font-size: 1.8rem;
-    text-align: justify;
-}
-
-.modal span
-{
-    position:absolute;
-    right:17px;
-    top: 12px;
-    cursor: pointer;
-    background: url('./imgs/close.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 40px;
-    height: 40px;
-
+    main .cards-container .card .text-container .texto
+    {
+        height: 25vh;
+    }
 }
 
 
-.activado
-{
-    transform:translate(-50%, -50%);
-    transition: all 0.8s;
-}
-
-#overlay {
-    position:fixed;
-    left:0;
-    top:0;
-    width:100vw;
-    height:100vh;
-    display:none;
-    background-color:#000;
-    opacity:0.9;
-
-  }
 

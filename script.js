@@ -3,7 +3,7 @@ const datos = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.\
 Illo et iusto debitis modi maiores molestias, hic unde labore dolores recusandae \
 delectus aut aliquam omnis nemo cum fuga enim similique beatae?'
 
-const web = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo et iusto debitis modi maiores molestias, hic unde labore dolores recusandae delectus aut aliquam omnis nemo cum fuga enim similique beatae?'
+const web = 'En la ruta de desarrollo web me capacité como Frontend developer, aprendiendo las siguientes habilidades:<br></br><ul><li>HTML, CSS y Javascript</li><li>Diseño Responsive</li><li>Transformaciones y transiciones CSS</li><li>Flexbox y Grid</li><li>Bootstrap</li><li>ES6 y Javascript Engine V8</li><li>Chrome Devtools</li><li>Programación Oriendata a Objetos</li><li>Estructuras de datos JS</li></ul>'
 
 const cripto = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo et iusto debitis modi maiores molestias, hic unde labore dolores recusandae delectus aut aliquam omnis nemo cum fuga enim similique beatae?'
 
